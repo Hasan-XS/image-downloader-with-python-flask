@@ -13,16 +13,18 @@ def downlode():
         url = request.form.get("url", None)
         response = requests.get(url)
         path_to_download_folder = os.path.join(os.path.expanduser("~"), "Downloads")
-        
+
         # name file
         name_company = "smart-industries-"
         code_name = url[:: url.index(":/")]
         name_file_code = code_name[code_name.index("h") + 2 :]
         rand = randint(0, 2007)
+
+        # name file full
         name_file = name_company + name_file_code + "-" + str(rand)
 
         # image path
-        image_path =os.path.join(path_to_download_folder, name_file)
+        image_path = os.path.join(path_to_download_folder, name_file)
         print(name_file)
 
         # save file
