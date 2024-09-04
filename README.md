@@ -24,12 +24,15 @@ Install Flask with this command in the command line:
 
 `pip install Flask`
 
+Create and start your first Flask project like this:
 ```python
 from flask import Flask
 
 app = Flask(__name__)
 
-
+@app.route("/", methods=["GET", "POST"])
+def download()
+    return "Download page"
 
 if __name__ == "__main__"
     app.run(debug=True)
