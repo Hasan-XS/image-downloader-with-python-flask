@@ -10,3 +10,8 @@ let's go!
 2. Flask
 3. requests
 4. rendom
+
+### 1. os librarie
+With the **OS** library, we help to redirect the image file to the **downloads folder** to save it in our **system downloads folder**, this is the default library in python, you can easily use it, just use it like this Enter:
+
+`import os`
