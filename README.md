@@ -13,12 +13,10 @@ let's go!
 
 ### 1. OS Librarie
 With the **OS** library, we help to redirect the image file to the **downloads folder** to save it in our **system downloads folder**, this is the default library in python, you can easily use it, just use it like this Enter:
-----------------------------------------------------------------------
+
 `import os`
-----------------------------------------------------------------------
 
-
-### 1. Flask
+### 2. Flask
 You probably know!, maybe you don't know, I really don't know, but this is a web project made with Flask micro framework, in this project, with the help of Flask, we get the URL of the image from the front-end, so easily.
 
 #### Install Flask
