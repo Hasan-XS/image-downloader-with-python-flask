@@ -11,7 +11,19 @@ let's go!
 3. requests
 4. rendom
 
-### 1. os librarie
+### 1. OS Librarie
 With the **OS** library, we help to redirect the image file to the **downloads folder** to save it in our **system downloads folder**, this is the default library in python, you can easily use it, just use it like this Enter:
-
+----------------------------------------------------------------------
 `import os`
+----------------------------------------------------------------------
+
+
+### 1. Flask
+You probably know!, maybe you don't know, I really don't know, but this is a web project made with Flask micro framework, in this project, with the help of Flask, we get the URL of the image from the front-end, so easily.
+
+#### Install Flask
+Install Flask with this command in the command line:
+
+`pip install Flask`
+
+
